@@ -47735,7 +47735,7 @@ const data3: Protocol[] = [
     module: "solayer/index.js",
     twitter: "solayer_labs",
     forkedFrom: [],
-    oracles: [],
+    oracles: ["Switchboard"],
     listedAt: 1718964090,
   },
   {

@@ -65091,7 +65091,22 @@ const data3: Protocol[] = [
     cmcId: null,
     category: "Lending",
     chains: ["Sonic"],
-    oracles: ["API3"], // https://github.com/DefiLlama/defillama-server/pull/9183
+    oracles: ["API3"], // https://machfi.gitbook.io/machfi-documentation/contracts/audit
+    oraclesBreakdown: [
+      {
+        name: "API3",
+        type: "Primary",
+        proof: [
+          "https://machfi.gitbook.io/machfi-documentation/protocol/mechanics/risk-management#oracle-risk"
+        ],
+      },
+      {
+        name: "Pyth",
+        type: "Secondary",
+        proof: [
+          "https://machfi.gitbook.io/machfi-documentation/protocol/mechanics/risk-management#oracle-risk"
+        ],
+      },
     forkedFrom: ["Compound V2"],
     module: "machfi/index.js",
     twitter: "machfi_xyz",
